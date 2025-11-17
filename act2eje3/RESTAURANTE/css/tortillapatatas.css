@@ -1,0 +1,50 @@
+body {
+  background-color: #FFF9C6; /* amarillo clarito */
+  font-family: Arial, sans-serif;
+  color: #665500; /* texto marrón oscuro para buen contraste */
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #AA8800; /* amarillo más intenso/dorado para el título */
+}
+
+h2 {
+  color: #997700; /* subtítulos en tono dorado oscuro */
+  margin-top: 20px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.lista1{
+  margin-left: 40px;
+  line-height: 1.6;
+  background-color: rgb(230, 245, 144); ;
+}
+
+.lista2{
+  margin-left: 40px;
+  line-height: 1.6;
+  background-color: rgb(230, 245, 144); ;
+}
+
+
+a {
+  color: #AA8800; /* enlaces en dorado */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+}
