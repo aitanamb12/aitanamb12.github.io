@@ -1,0 +1,47 @@
+body {
+  background-color: #C9FFC2; /* fondo verde claro */
+  font-family: Arial, sans-serif;
+  color: #2E4D2E; /* texto en verde oscuro */
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #1B3A1B; /* verde más intenso para el título */
+}
+
+h2 {
+  color: #145214; /* verde intermedio para subtítulos */
+  margin-top: 20px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+.lista1 {
+  margin-left: 40px;
+  line-height: 1.6;
+  background-color: beige;
+}
+.lista2 {
+  margin-left: 40px;
+  line-height: 1.6;
+  background-color: beige;
+}
+
+a {
+  color: #1B5E20; /* verde oscuro para enlaces */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+}

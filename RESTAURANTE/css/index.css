@@ -1,0 +1,76 @@
+
+:root {
+  --texto: #333;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f9fc;
+  color: var(--texto);
+  background-color: rgb(235, 168, 190);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.caja-titulo {
+  background: #d6ecff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 20px;
+  border: 2px solid #030303;
+}
+
+.caja-imagen {
+  background: #ffd6e0;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  border: 2px solid #030303;
+  margin-bottom: 20px;
+}
+
+.caja-bienvenida {
+  background: #d9f7d9;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  border: 2px solid #030303;
+  margin-bottom: 20px;
+}
+
+.caja-recetas {
+  background: #fff3c4;
+  padding: 20px;
+  border-radius:12px;
+  text-align: center;
+  border: 2px solid #030303;
+  margin-bottom: 20px;
+}
+
+.caja-recetas a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #444;
+}
+
+.caja-recetas a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.caja-final {
+  background: #e9d7ff;
+  padding: 10px;
+  border-radius: 12px;
+  text-align: center;
+  border: 2px solid #030303;
+  margin-top: 20px;
+}
