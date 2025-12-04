@@ -3,35 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="estilos.css"/>
-    <title>Ejemplo HTML con CSS</title>
-
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-
     <header>
-        <h1>MENÚ PRINCIPAL AITANA MEJÍAS</h1>
+        <div class="container">
+            <h1 class="logo">LM</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
+    <!-- Sección Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Mis prácticas</h2>
+            <p>Aitana Mejías Barragán</p>
+        </div>
+    </section>
 
+    <section class="services">
+        <h2>PRÁCTICAS</h2>
+        <div class="card-container">
+            <div class="card">
+                <a href="./HORARIO2/index.html"><h3>HORARIO</h3></a>
 
-    <main>
-        <h2>MIS PRÁCTICAS </h2>
-        <a href="./RESTAURANTE/html/index.html">Restaurante</a>
-        <br>
-        <a href="./HORARIO2/index.html">Horario</a>
-        <br>
-        <a href="">Formulario</a>
-
-
-
-    </main>
-
+                <p>Horario 1 DAW.</p>
+            </div>
+            <div class="card">
+                  <a href="./act2eje3/RESTAURANTE/html/index.html"><h3>RESTAURANTE</h3></a>
+                <p>Mi restaurante.</p>
+        
+            </div>
+            <div class="card">
+                <a href="./formularios/index.html"><h3>FORMULARIOS</h3></a> 
+                <p>Para rellenar.</p>
+                
+            </div>
+        </div>
+    </section>
 
     
-    <footer>
-        <p>© 2025 Mi Menú Principal Aitana</p>
-    </footer>
-
 </body>
 </html>

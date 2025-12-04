@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fbe6c8;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 22px;
+    font-style: italic;
+    color: #2e1f0d;
+    margin-bottom: 25px;
+}
+
+.contenedor {
+    width: 900px;
+    margin: auto;
+}
+
+
+.bloque {
+    background-color: #F7cfb9;             
+    border-radius: 40px;
+    padding: 25px;
+    margin-bottom: 40px;
+    border: 2px solid #b89654;            
+    text-align: left;
+    box-shadow: 0px 10px 15px rgba(90,70,40,0.35); 
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #4a3518;                       
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #2e1f0d;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 350px;
+    padding: 6px;
+    margin-top: 5px;
+    border: 1px solid #6b5737;
+    background-color: #f9f5eb;
+}
+
+textarea {
+    height: 60px;
+    resize: none;
+}
+
+.lista {
+    width: 180px;
+}
+
+
+.grupolinea {
+    margin: 10px 0;
+    font-size: 15px;
+    color: #2e1f0d;
+}
+
+
+.checks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 40px;
+    margin-bottom: 20px;
+}
+
+.checks label {
+    width: 220px;
+}
+
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.btn {
+    width: 180px;
+    padding: 12px 0;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.enviar {
+    background-color: #ffb0b9;   
+}
+
+.cancelar {
+    background-color: #ffb0b9;   
+}
