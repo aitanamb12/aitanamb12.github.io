@@ -66,6 +66,26 @@ body {
   text-decoration: underline;
 }
 
+.caja-formularios {
+  background: #891b00;
+  padding: 20px;
+  border-radius:12px;
+  text-align: center;
+  border: 2px solid #030303;
+  margin-bottom: 20px;
+}
+
+.caja-formularios a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #444;
+}
+
+.caja-formularios a:hover {
+  color: #000;
+  text-decoration: underline;
+}
 .caja-final {
   background: #e9d7ff;
   padding: 10px;
